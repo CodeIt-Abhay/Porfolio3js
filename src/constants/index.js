@@ -1,60 +1,58 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "RefactorX - AI-Powered Code Reviewer",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "A full-stack AI tool to review code for correctness, performance, and security. Features a responsive React frontend with live syntax highlighting and real-time editing.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Built a full-stack AI tool to review code for correctness, performance, and security.",
+      "Developed a responsive React frontend with live syntax highlighting and real-time editing.",
+      "Integrated Google Gemini API to generate structured feedback and improvement suggestions."
     ],
-    href: "",
+    href: "https://github.com/CodeIt-Abhay/RefactorX",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/refactor-x.png",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
-    ],
+      {
+        id: 3,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 4,
+        name: "VS Code / Monaco",
+        path: "/assets/logos/visualstudiocode.svg",
+      }
+    ]
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Real-Time Location Tracker & Chat App",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "A real-time multi-user location tracker with an integrated chat system. Uses Leaflet.js to render dynamic map markers for each connected user.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Built a real-time multi-user location tracker with integrated chat system.",
+      "Used Leaflet.js to render dynamic map markers for each connected user.",
+      "Designed an interactive UI with username popup and floating chat box."
     ],
-    href: "",
+    href: "https://github.com/CodeIt-Abhay/RealTime-Tracker",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/location-tracker.png",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 2,
@@ -63,176 +61,70 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
-    ],
+      {
+        id: 4,
+        name: "Git",
+        path: "/assets/logos/git.svg",
+      }
+    ]
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Mindful-AI - Mental Health Monitoring Platform",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "A comprehensive mental health monitoring system featuring AI-guided chat therapy, mood logging, real-time analytics, crisis alerting, and ML-powered treatment prediction.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Built an AI Chat Therapy system powered by Google Gemini API for personalized interactions.",
+      "Implemented mood logging, crisis detection, and visual analytics dashboards for user well-being tracking.",
+      "Developed a FastAPI-based machine learning service using the OSMI dataset to predict clinical treatment requirements.",
+      "Integrated Next.js, TypeScript, Python, FastAPI, Tailwind CSS, and MongoDB Atlas."
     ],
-    href: "",
+    href: "https://github.com/CodeIt-Abhay/Mindful-AI",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/mindful-ai.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
-    ],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
       {
         id: 3,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 4,
         name: "Git",
         path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+      }
+    ]
+  }
 ];
 
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "https://wa.me/7830262190?text=Hi%20how%20are%20you%3F",
+    href: "https://wa.me/917830262190?text=Hi%20how%20are%20you%3F",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/abhay-pratap-a50570368/",
     icon: "/assets/socials/linkedIn.svg",
+  },
+  {
+    name: "GitHub",
+    href: "https://github.com/CodeIt-Abhay",
+    icon: "/assets/logos/github.svg",
   },
   {
     name: "Instagram",
@@ -243,38 +135,27 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Frontend Developer",
+    job: "Eduskills (Virtual)",
+    date: "Oct 2024 - Dec 2024",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Developed responsive, interactive user interfaces using HTML, CSS, JavaScript, and React.js.",
+      "Collaborated on wireframes and UI/UX design concepts, translating layouts into clean, high-performance web pages.",
+      "Optimized web application components for maximum speed, scalability, and device compatibility.",
+      "Utilized modern frontend developer tools and workflows to troubleshoot, debug, and streamline styling."
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Web Developer",
+    job: "Codsoft (Virtual)",
+    date: "Sep 2024 - Oct 2024",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Designed and implemented modern web layouts utilizing JavaScript, HTML, and CSS.",
+      "Created dynamic frontend components and integrated basic server-side logic using Node.js and Express.js.",
+      "Ensured responsiveness and accessibility across web applications through thorough testing and cross-browser debugging.",
+      "Leveraged Git version control for code collaboration, management, and deployment workflows."
     ],
-  },
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-    ],
-  },
+  }
 ];
 export const reviews = [
   {

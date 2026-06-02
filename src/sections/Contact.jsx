@@ -39,7 +39,7 @@ const Contact = () => {
           from_name: formData.name,
           to_name: "Abhay Pratap",
           from_email: formData.email,
-          to_email: "ranaabhay690@gmail.com",
+          to_email: "theabhay101@gmail.com",
           message: formData.message,
         },
         "0RCGSG8RRqPmQYF_p"
@@ -54,7 +54,7 @@ const Contact = () => {
     }
   };
   return (
-    <section className="relative flex items-center c-space section-spacing">
+    <section id="contact" className="relative flex items-center c-space section-spacing">
       <Particles
         className="absolute inset-0 -z-50"
         quantity={100}
