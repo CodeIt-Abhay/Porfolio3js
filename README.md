@@ -1,4 +1,4 @@
-# Abhay Pratap - Interactive 3D Developer Portfolio[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://abhaypratap1.vercel.app/)
+# Abhay Pratap - Interactive 3D Developer Portfolio [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://abhaypratap1.vercel.app/)
 
 Welcome to my personal 3D developer portfolio project! This application showcases my academic credentials, professional internships, and featured projects in a fully responsive, animated, and premium 3D workspace.
 
